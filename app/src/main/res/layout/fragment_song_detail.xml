@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF3B3B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="Tab"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="Chord"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Hello"/>
+
+</LinearLayout>
